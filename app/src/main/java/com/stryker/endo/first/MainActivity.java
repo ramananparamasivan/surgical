@@ -71,6 +71,8 @@ public class MainActivity extends Activity {
     }
 
     public void onScheduledButtonClicked(View view) {
+        Intent intent = new Intent(this, SchedulesActivity.class);
+        startActivity(intent);
     }
 
     public void onHomeButtonClick(View view) {
